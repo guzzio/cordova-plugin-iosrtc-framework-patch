@@ -1,0 +1,28 @@
+{
+  "name": "io.guzz.cordova.cordova-plugin-iosrtc-framework-patch",
+  "version": "1.0.0",
+  "description": "Removes the iOS simulator architecture from the WebRTC framework",
+  "cordova": {
+    "id": "io.guzz.cordova.cordova-plugin-iosrtc-framework-patch",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guzzio/cordova-plugin-iosrtc-framework-patch.git"
+  },
+  "keywords": [
+    "guzz",
+    "xcode",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Tom Brückner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guzzio/cordova-plugin-iosrtc-framework-patch/issues"
+  },
+  "homepage": "https://github.com/guzzio/cordova-plugin-iosrtc-framework-patch#readme",
+  "dependencies": {}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+  xmlns="http://apache.org/cordova/ns/plugins/1.0" id="io.guzz.cordova.cordova-plugin-iosrtc-framework-patch" version="1.0.0">
+  <name>Guzz iosrtc framework patch</name>
+  <description>Removes the iOS simulator architecture from the WebRTC framework</description>
+  <license>MIT</license>
+  <keywords>guzz,xcode</keywords>
+  <platform name="ios">
+    <hook type="after_prepare" src="scripts/iosrtc-framework-patch.js"/>
+  </platform>
+</plugin>
